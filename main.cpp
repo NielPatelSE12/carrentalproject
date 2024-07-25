@@ -1,4 +1,5 @@
 #include <iostream>
+#include "createaccount.h"
 
 int main() {
     char x;
@@ -19,6 +20,7 @@ int main() {
 
             if (choice == 1) {
                 std::cout << "You would like to create a new account" << std::endl;
+                CreateAccount newAccount("", "", "", "", "");
             } else if (choice == 2) {
                 std::cout << "You would like to edit an account" << std::endl;
             } else if (choice == 3) {

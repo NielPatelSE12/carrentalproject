@@ -4,19 +4,21 @@
 #include <iostream>
 #include <string>
 
-class CreateAccount{
-    private:
+class CreateAccount {
+private:
     // Class variables
-    std :: string firstName;
-    std :: string lastName;
-    std :: string licenseNumber;
-    std :: string dateOfBirth;
-    std :: string emailAddress;
+    std::string firstName;
+    std::string lastName;
+    std::string licenseNumber;
+    std::string dateOfBirth;
+    std::string emailAddress;
 
-    public:
-    // Default Constructor Declaration 
-    CreateAccount(std :: string first_name, std :: string last_name, std :: string licensenumber, std :: string dateofbirth, std :: string emailaddress ){}
+public:
+    // Constructor Declaration
+    CreateAccount(std::string first_name, std::string last_name, std::string license_number, std::string date_of_birth, std::string email_address);
+
+    // Method to write data to CSV
+    void writeToCSV();
 };
 
-#endif 
-
+#endif
