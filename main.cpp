@@ -3,7 +3,7 @@
 
 int main() {
     char x;
-    std::cout << "Welcome to Razer Car Rental, press y to continue or n to exit" << std::endl;
+    std::cout << "Welcome to Razer Car Rentals, press y to continue or n to exit" << std::endl;
     std::cin >> x;
 
     if (x == 'y' || x == 'Y') {
