@@ -29,7 +29,6 @@ int main() {
                 CreateAccount::displayAccounts();
             } else if (choice == 4) {
                 std::cout << "You would like to delete an account" << std::endl;
-                // Implement delete account logic
             } else {
                 std::cout << "The option you have is not available. Please pick another one" << std::endl;
             }
