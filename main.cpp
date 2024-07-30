@@ -15,7 +15,6 @@ int main() {
             std::cout << "1. Create a new account" << std::endl;
             std::cout << "2. Edit an account" << std::endl;
             std::cout << "3. View all accounts" << std::endl;
-            std::cout << "4. Delete an account" << std::endl;
             std::cin >> choice;
 
             if (choice == 1) {
@@ -27,8 +26,6 @@ int main() {
             } else if (choice == 3) {
                 std::cout << "You would like to view all accounts" << std::endl;
                 CreateAccount::displayAccounts();
-            } else if (choice == 4) {
-                std::cout << "You would like to delete an account" << std::endl;
             } else {
                 std::cout << "The option you have is not available. Please pick another one" << std::endl;
             }
